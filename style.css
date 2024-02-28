@@ -45,7 +45,8 @@ ul li a{
   text-decoration: none;
   color: darkslategray;
   margin: -3%;
-  transition: .4s ease;
+  transition: .10s ease;
+  cursor: pointer;
 }
 
 ul li a:hover{
@@ -81,4 +82,25 @@ ul li a:hover{
 }
 .info a:hover{
   background: rgb(59, 174, 209);
+}
+
+.image{
+  width: 10%;
+  height: 50%;
+  position: absolute;
+  left: 1000px;
+  
+}
+
+.image img{
+ position: absolute;
+  left: 40%;
+  transform: translate(-50%);
+  bottom: 0;
+  transition: left 2s ease;
+}
+
+.image:hover .girl{
+  left: 55%;
+
 }
