@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.main{
+    position: relative;
+    width: 200%; 
+    height: 200;
+    background: url(img\ 2.jpg);
+    /*background-position: center;
+    background-size: cover;*/
+    font-family: sans-serif;
+}
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
@@ -31,9 +39,11 @@ body {
 /* Navbar styles */
 .navbar {
     display: flex;
+    width: 86%;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    padding: 20px 0;
     animation: slideInTop 1s ease forwards; /* Animation for navbar */
 }
 
@@ -67,6 +77,9 @@ body {
     font-weight: bold;
 }
 
+ul li a:hover{
+    color: rgb(230,104,59);
+  }
 /* Info section styles */
 .info {
     text-align: center;
@@ -130,6 +143,20 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+}
+.works{
+    margin-left: 7%;
+    margin-top: 6%;
+  }
+.works span{
+    color: rgb(230,104,59);
+}
+.works span{
+    color: rgb(230,104,59);
+}
+
+.skill span{
+    color: rgb(230,104,59);
 }
 .info span{
     color: rgb(230,104,59);
